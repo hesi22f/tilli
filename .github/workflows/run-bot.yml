@@ -1,9 +1,9 @@
 name: Run Telegram Bot
 
 on:
-  workflow_dispatch:  # امکان اجرای دستی
+  workflow_dispatch:  # اجرای دستی
   schedule:
-    - cron: '0 */6 * * *'  # اجرای خودکار هر ۶ ساعت (حداکثر زمان مجاز یک اجرا)
+    - cron: '0 */6 * * *'  # اجرای خودکار هر ۶ ساعت
 
 jobs:
   run-bot:
