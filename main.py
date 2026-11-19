@@ -14,7 +14,7 @@ from handlers import user, admin
 logging.basicConfig(level=logging.INFO)
 
 # 1. ساخت اپلیکیشن Flask
-app = Flask(name)
+app = Flask(__name__)
 
 @app.route('/')
 def health_check():
